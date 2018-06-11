@@ -66,4 +66,34 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 ![](https://mdn.mozillademos.org/files/11915/htmlatributos.png)
 
+## Etiquetas
+
+### Encabezados
+
+* \<h1>Encabezado 1\</h1>
+* \<h2>Encabezado 2\</h2>
+* \<h3>Encabezado 3\</h3>
+* \<h4>Encabezado 4\</h4>
+* \<h5>Encabezado 5\</h5>
+* \<h6>Encabezado 6\</h6>
+
+Los motores de búsqueda usan los encabezados para indexar la estructura y contenido de tu página web. Para aplicar estilos a los encabezados usa CSS.
+
+## Proyecto: Portafolio
+
+Crearemos un portafolio para búsqueda laboral, empezaremos primero creando los _wire frames_ de nuestra página web.
+
+La página de galería será donde mostremos los proyectos más importantes que hemos realizado.
+
+![](images/gallery.png)
+
+A continuación la página donde hablamos un poco más sobre nosotros.
+
+![](images/about.png)
+
+Finalmente la página donde mostraremos nuestros datos de contacto.
+
+![](images/contact.png)
+
+
 
