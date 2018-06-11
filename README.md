@@ -101,9 +101,9 @@ Los motores de búsqueda usan los encabezados para indexar la estructura y conte
 
 ### Párrafos
 
-* <p>Define un párrafo</p>
-* <br> Inserts a single line break
-* <pre>Define un texto preformateado</pre>
+* \<p>Define un párrafo\</p>
+* \<br> Inserts a single line break
+* \<pre>Define un texto preformateado\</pre>
 
 ### Etiquetas para definir secciones
 
