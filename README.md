@@ -108,7 +108,6 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 * \<h2>Encabezado 2\</h2>
 * \<h3>Encabezado 3\</h3>
 * \<h4>Encabezado 4\</h4>
-
 * \<h5>Encabezado 5\</h5>
 * \<h6>Encabezado 6\</h6>
 
