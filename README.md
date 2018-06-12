@@ -93,10 +93,10 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados el usuario. Las etiquetas siguientes definen metadatos:
 
-| Etiqueta|
-|--- |
+| Etiqueta| Descripción |
+|--- | ---|
 | title|
-| style |
+| style | Es el elemento encargado de indicar la información de estilos. |
 | meta |
 | link |
 | script |
