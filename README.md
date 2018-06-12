@@ -158,11 +158,11 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 
 |Tipo | Descripción |
 | --- | --- |
-| button| Crea un botón en el que se puede hacer click sin ningún valor por defecto |
-| checkbox| Permite insertar un vector o arrray de valores |
-| color| Permite al usuario seleccionar un color  |
-| date| Permite al usuario proporcionar una fecha |
-| datetime| Permite ingresar hora y fecha (hora, minuto, segundo, fracción de segundo) |
+| button| Crea un botón en el que se puede hacer click sin ningún valor por defecto. |
+| checkbox| Permite insertar un vector o arrray de valores. |
+| color| Permite al usuario seleccionar un color.  |
+| date| Permite al usuario proporcionar una fecha. |
+| datetime| Permite ingresar hora y fecha (hora, minuto, segundo, fracción de segundo) basado en la zona horaria UTC. |
 | datetime-local | |
 | email| |
 | file| |
