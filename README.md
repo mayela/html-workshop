@@ -89,6 +89,20 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 ### Etiquetas activas
 
+#### Etiqueta _head_
+
+El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados al usuario. Las etiquetas siguientes definen metadatos:
+
+| Etiqueta|
+|--- |
+| title|
+| style |
+| meta |
+| link |
+| script |
+| base |
+
+
 #### Encabezados
 
 * \<h1>Encabezado 1\</h1>
@@ -112,6 +126,7 @@ Los motores de búsqueda usan los encabezados para indexar la estructura y conte
 * _section_
 * _footer_
 * _header_
+* _aside_
 
 #### Etiquetas para definir elementos multimedia
 
@@ -158,11 +173,11 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 
 |Tipo | Descripción |
 | --- | --- |
-| button| |
-| checkbox| |
-| color| |
-| date| |
-| datetime| |
+| button| Crea un botón en el que se puede hacer click sin ningún valor por defecto. |
+| checkbox| Permite insertar un vector o arrray de valores. |
+| color| Permite al usuario seleccionar un color.  |
+| date| Permite al usuario proporcionar una fecha. |
+| datetime| Permite ingresar hora y fecha (hora, minuto, segundo, fracción de segundo) basado en la zona horaria UTC. |
 | datetime-local | Se escoge una fecha y hora sin la zona horaria  |
 | email|el tipo de entrada tiene que ser un email |
 | file|define un campo de archivo y lo selecciona y pone un boton para ver los archivos subidos|
@@ -222,6 +237,7 @@ Finalmente la página donde mostraremos nuestros datos de contacto.
 * https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input
 * https://www.fundeu.es/escribireninternet/edicion-y-maquetacion-de-documentos-web/
 * http://htmlcheatsheet.com/
-* 
+* https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag
+* https://www.w3schools.com/html/html_head.asp
 
 
