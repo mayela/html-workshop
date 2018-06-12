@@ -98,7 +98,7 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 | title|
 | style |
 | meta |
-| link |
+| link | Permite realizar la carga y establecer la relacion existente entre el documento web actual y un recurso externo.Esta etiqueta es normalmente utilizada para realizar la carga de hojas de estilos para el documento web. |
 | script |
 | base |
 
@@ -186,7 +186,7 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | range| permite que el usuario especifique un valor numérico comprendido entre un valor mínimo y máximo. El valor exacto, sin embargo, no se considera importante. Se repesenta típicamente como un "tirador" o un control deslizante en lugar de un campo de texto como otros tipos de <input>. Como este tipo de widget es bastante inmpreciso, no debe utilizarse normalmente a menos que el valor exacto del control no sea importante. |
 | reset|Permite agregar un boton con la funcionalidad de limpiar cualquier formulario o valor asignado. |
 | search|Permite agregar campos donde se podria recibir texto para busquedas. |
-| submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo imput hacia el servidor. |
+| submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo input hacia el servidor. |
 | tel| Permite agregar un campo que valida que se hayan introducido caracteres numericos cuando se requiera solicitar un numero telefonico. |
 | text| Permite crear campos simples para captura de texto. |
 | time | Define el control para ingresar una hora (sin zona horaria)|
