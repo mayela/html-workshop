@@ -69,13 +69,15 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 ## Etiquetas
 
+![](https://html.com/wp-content/uploads/html5_cheat_sheet_tags.png)
+
 ### Etiquetas descontinuadas
 
 |Etiqueta | Descripción |
 |--- | ---|
 |\<acronym> | Define un acrónimo|
 |\<applet> | Define un applet |
-|\<basefont> 	Define un fuente base para la página |
+|\<basefont> | Define un fuente base para la página |
 |\<big> | Define texto grande |
 |\<center> | Define texto centrado |
 |\<dir> | Define una lista de un directorio |
@@ -85,10 +87,9 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 |\<isindex> | Define un campo input |
 |\<noframes> | Define una sección no frame |
 
-### Etiquetas nuevas
+### Etiquetas activas
 
-
-### Encabezados
+#### Encabezados
 
 * \<h1>Encabezado 1\</h1>
 * \<h2>Encabezado 2\</h2>
@@ -99,20 +100,20 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 Los motores de búsqueda usan los encabezados para indexar la estructura y contenido de tu página web. Para aplicar estilos a los encabezados usa CSS.
 
-### Párrafos
+#### Párrafos
 
 * \<p>Define un párrafo\</p>
 * \<br> Inserts a single line break
 * \<pre>Define un texto preformateado\</pre>
 
-### Etiquetas para definir secciones
+#### Etiquetas para definir secciones de contenido
 
 * _div_
 * _section_
 * _footer_
 * _header_
 
-### Etiquetas para definir elementos multimedia
+#### Etiquetas para definir elementos multimedia
 
 * _img_
 * _audio_
@@ -120,12 +121,13 @@ Los motores de búsqueda usan los encabezados para indexar la estructura y conte
 * _canvas_
 * _svg_
 
-### Etiquetas para formulario
+#### Etiquetas para formulario
 
 * _form_
+* _label_
 * _input_
 
-#### Form
+##### Form
 
 El elemento _form_ que define un formulario puede tener atributos entre los que destacan:
 
@@ -137,6 +139,60 @@ El elemento _form_ que define un formulario puede tener atributos entre los que 
 > * La longitud máxima de una URL es de 300 caracteres.
 > * Nunca uses GET para datos sensibles.
 > * GET es bueno para datos no sensibles, como los _query params_ en una búsqueda.
+
+##### Label
+
+El elemento label representa una etiqueta que puede ser asociada a un control de formulario, y que se supone provee una descripción corta para éste. Los navegadores pueden enlazar ambos elementos permitiendo que los usuarios establezcan el enfoque sobre el control al hacer clic en su etiqueta.
+
+Existen dos formas de asociar a un elemento label con un control: insertando al texto de la etiqueta y al control dentro de label; o haciendo que coincidan los valores del atributo id en el control y del atributo for en label.
+
+![Forma uno de asociar el label e input](images/label-input1.png)
+
+![Forma dos de asociar el label e input](images/label-input2.png)
+
+##### Input
+
+
+
+###### Tipos de elemento input
+
+|Tipo | Descripción |
+| --- | --- |
+| button| |
+| checkbox| |
+| color| |
+| date| |
+| datetime| |
+| datetime-local | |
+| email| |
+| file| |
+| hidden| |
+| image| |
+| month| |
+| number| |
+| password| |
+| radio| |
+| range| |
+| reset| |
+| search| |
+| submit| |
+| tel| |
+| text| |
+| time| |
+| url| |
+| week| |
+
+## Atributos globales
+
+[](https://www.w3schools.com/tags/ref_standardattributes.asp)
+
+## Atributos de eventos
+
+[](https://www.w3schools.com/tags/ref_eventattributes.asp)
+
+## Maquetación WEB
+
+La maquetación web es el proceso en el que el prototipo gráfico también denominado «layout» (con los requisitos estructurales y estéticos definidos y aprobados en un análisis inicial) pasa a transformase en código html, css y js (estándares web) para que los navegadores puedan interpretarlo correctamente.
 
 ## Proyecto: Portafolio
 
@@ -154,5 +210,18 @@ Finalmente la página donde mostraremos nuestros datos de contacto.
 
 ![](images/contact.png)
 
+
+## Referencias
+
+* https://www.w3schools.com/html/html_forms.asp
+* https://www.tutorialspoint.com/html5/html5_deprecated_tags.htm
+* https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
+* https://en.wikipedia.org/wiki/HTML
+* https://www.w3schools.com/html/html5_semantic_elements.asp
+* https://www.tutorialspoint.com/html5/html5_new_tags.htm
+* https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input
+* https://www.fundeu.es/escribireninternet/edicion-y-maquetacion-de-documentos-web/
+* http://htmlcheatsheet.com/
+* 
 
 
