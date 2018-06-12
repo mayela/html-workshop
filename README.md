@@ -99,7 +99,7 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 | style |
 | meta |
 | link |
-| script |
+| script |El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.|
 | base |
 
 #### Encabezados
