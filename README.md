@@ -97,14 +97,15 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 
 El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados el usuario. Las etiquetas siguientes definen metadatos:
 
-| Etiqueta|
-|--- |
+| Etiqueta| Descripción |
+|--- | ---|
 | title|
-| style |
+| style | Es el elemento encargado de indicar la información de estilos. |
 | meta |
 | link |
-| script |
 | base | Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento <base> en un documento.|
+| script |El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.|
+| base |
 
 #### Encabezados
 
