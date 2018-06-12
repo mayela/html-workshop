@@ -96,13 +96,8 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 | Etiqueta| Descripción |
 |--- | ---|
 | title|
-<<<<<<< HEAD
-| style |
-| meta |Son tipicamente usados para especificar la descripcion de la pagina, teclado , autor del documento, ultima modificacion y otros metadatos,los metadatos no seran mostrados en la pagina, pero la maquina lo analiza|
-=======
 | style | Es el elemento encargado de indicar la información de estilos. |
-| meta |
->>>>>>> f212cd54989055118e305b09a82f2626b7c8c4c9
+| meta |Son tipicamente usados para especificar la descripcion de la pagina, teclado , autor del documento, ultima modificacion y otros metadatos,los metadatos no seran mostrados en la pagina, pero la maquina lo analiza|
 | link |
 | script |
 | base |
