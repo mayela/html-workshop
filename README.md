@@ -93,14 +93,15 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados el usuario. Las etiquetas siguientes definen metadatos:
 
-| Etiqueta|
-|--- |
-| title|
-| style |
-| meta |
+| Etiqueta| Descripción |
+|--- | ---|
+| title| Indica el título del documento.Sus etiquetas son: <title> y </title> (ambas obligatorias). Crea una caja: Está definido como: Elemento de contenido de cabecera.|           
+| style | Es el elemento encargado de indicar la información de estilos. |
+| meta |Son tipicamente usados para especificar la descripcion de la pagina, teclado , autor del documento, ultima modificacion y otros metadatos,los metadatos no seran mostrados en la pagina, pero la maquina lo analiza|
 | link | Permite realizar la carga y establecer la relacion existente entre el documento web actual y un recurso externo.Esta etiqueta es normalmente utilizada para realizar la carga de hojas de estilos para el documento web. |
-| script |
-| base |
+| script| El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.|
+| base | Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento <base> en un documento.|
+
 
 #### Encabezados
 
@@ -192,6 +193,7 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | time | Define el control para ingresar una hora (sin zona horaria)|
 | url |Define un campo para ingresar una URL|
 | week | Define un control de semana y año (sin zona horaria)|
+
 
 
 ## Atributos globales
