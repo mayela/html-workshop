@@ -193,9 +193,9 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | submit| |
 | tel| |
 | text| |
-| time| |
-| url| |
-| week| |
+| time| | Define el control para ingresar una hora (sin zona horaria)
+| url| | Define un campo para ingresar una URL
+| week| | Define un control de semana y año (sin zona horaria)
 
 ## Atributos globales
 
