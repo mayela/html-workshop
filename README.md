@@ -89,20 +89,6 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 ### Etiquetas activas
 
-#### Etiqueta _head_
-
-El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados al usuario. Las etiquetas siguientes definen metadatos:
-
-| Etiqueta|
-|--- |
-| title|
-| style |
-| meta |
-| link |
-| script |
-| base |
-
-
 #### Encabezados
 
 * \<h1>Encabezado 1\</h1>
@@ -126,7 +112,6 @@ Los motores de búsqueda usan los encabezados para indexar la estructura y conte
 * _section_
 * _footer_
 * _header_
-* _aside_
 
 #### Etiquetas para definir elementos multimedia
 
@@ -169,6 +154,8 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 
 
 
+
+
 ###### Tipos de elemento input
 
 |Tipo | Descripción |
@@ -183,11 +170,11 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | file|define un campo de archivo y lo selecciona y pone un boton para ver los archivos subidos|
 | hidden|oculta un campo de entrada de datos al usuario aunque la informacion es enviada cuando el formulario es presentada  |
 | image|el tipo de entrada es una imagen y envia coordenadas X y Y del clic que activo el boton de imagen|
-| month| |
-| number| |
-| password| |
-| radio| |
-| range| |
+| month|  En un atribtuo type, representa un campo para la entrada de un mes. En los navegadores que soportan el mecanismo, estos campos pueden estar representados por controles que permiten a los usuarios cambiar su valor de manera gráfica (como, por ejemplo, un calendario), en lugar de tener que ingresarlo directamente como una cadena.|
+| number| Este elemento valida automáticamente que los valores introducidos sean numéricos sin necesidad de scripts adicionales, toda la validación la realiza el propio navegador|
+| password|El buscador generará un campo para escribir, y cambiar la contraseña. Los datos que introduzca el usuario serán mostrardos como asteriscos, estos carácteres puede variar dependiendo del buscador. |
+| radio|En un atributo type, representa una opción que pertenece a un grupo en el que no más de una opción puede ser seleccionada al mismo tiempo. Estos grupos están normalmente conformados por un número de botones de opción, todos compartiendo el mismo valor en el atributo name. |
+| range| permite que el usuario especifique un valor numérico comprendido entre un valor mínimo y máximo. El valor exacto, sin embargo, no se considera importante. Se repesenta típicamente como un "tirador" o un control deslizante en lugar de un campo de texto como otros tipos de <input>. Como este tipo de widget es bastante inmpreciso, no debe utilizarse normalmente a menos que el valor exacto del control no sea importante. |
 | reset|Permite agregar un boton con la funcionalidad de limpiar cualquier formulario o valor asignado. |
 | search|Permite agregar campos donde se podria recibir texto para busquedas. |
 | submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo imput hacia el servidor. |
@@ -237,7 +224,6 @@ Finalmente la página donde mostraremos nuestros datos de contacto.
 * https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input
 * https://www.fundeu.es/escribireninternet/edicion-y-maquetacion-de-documentos-web/
 * http://htmlcheatsheet.com/
-* https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag
-* https://www.w3schools.com/html/html_head.asp
+* 
 
 
