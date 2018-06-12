@@ -89,6 +89,19 @@ La mayor√≠a de los atributos son pares nombrados separados por un signo de =. A√
 
 ### Etiquetas activas
 
+#### Etiqueta _head_
+
+El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados el usuario. Las etiquetas siguientes definen metadatos:
+
+| Etiqueta|
+|--- |
+| title|
+| style |
+| meta |
+| link |
+| script |
+| base |
+
 #### Encabezados
 
 * \<h1>Encabezado 1\</h1>
@@ -151,10 +164,6 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 ![Forma dos de asociar el label e input](images/label-input2.png)
 
 ##### Input
-
-
-
-
 
 ###### Tipos de elemento input
 
