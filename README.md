@@ -89,10 +89,13 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 ### Etiquetas activas
 
-
 #### Etiqueta _head_
 
 El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados al usuario. Las etiquetas siguientes definen metadatos:
+
+#### Etiqueta _head_
+
+El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados el usuario. Las etiquetas siguientes definen metadatos:
 
 | Etiqueta|
 |--- |
@@ -166,10 +169,6 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 
 ##### Input
 
-
-
-
-
 ###### Tipos de elemento input
 
 |Tipo | Descripción |
@@ -212,9 +211,9 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo imput hacia el servidor. |
 | tel| Permite agregar un campo que valida que se hayan introducido caracteres numericos cuando se requiera solicitar un numero telefonico. |
 | text| Permite crear campos simples para captura de texto. |
-| time| | Define el control para ingresar una hora (sin zona horaria)
-| url| | Define un campo para ingresar una URL
-| week| | Define un control de semana y año (sin zona horaria)
+| time | Define el control para ingresar una hora (sin zona horaria)|
+| url |Define un campo para ingresar una URL|
+| week | Define un control de semana y año (sin zona horaria)|
 
 
 
