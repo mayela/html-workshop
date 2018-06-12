@@ -1,4 +1,4 @@
-# Fundamentos de HTML
+﻿# Fundamentos de HTML
 
 HTML es un lenguaje de marcado y es usado para decirle al navegador que desplegar al visitar una página web. Consiste en una serie de etiquetas que representan elementos que usas para _marcar_ diferentes partes del contenido, dicho de otra manera, las etiquetas son los bloques que conforman u página web.
 Una página web es una serie de elementos HTML anidados.
@@ -160,26 +160,26 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 
 |Tipo | Descripción |
 | --- | --- |
-| button| |
-| checkbox| |
-| color| |
-| date| |
-| datetime| |
-| datetime-local | |
-| email| |
-| file| |
-| hidden| |
-| image| |
+| button| Crea un botón en el que se puede hacer click sin ningún valor por defecto. |
+| checkbox| Permite insertar un vector o arrray de valores. |
+| color| Permite al usuario seleccionar un color.  |
+| date| Permite al usuario proporcionar una fecha. |
+| datetime| Permite ingresar hora y fecha (hora, minuto, segundo, fracción de segundo) basado en la zona horaria UTC. |
+| datetime-local | Se escoge una fecha y hora sin la zona horaria  |
+| email|el tipo de entrada tiene que ser un email |
+| file|define un campo de archivo y lo selecciona y pone un boton para ver los archivos subidos|
+| hidden|oculta un campo de entrada de datos al usuario aunque la informacion es enviada cuando el formulario es presentada  |
+| image|el tipo de entrada es una imagen y envia coordenadas X y Y del clic que activo el boton de imagen|
 | month|  En un atribtuo type, representa un campo para la entrada de un mes. En los navegadores que soportan el mecanismo, estos campos pueden estar representados por controles que permiten a los usuarios cambiar su valor de manera gráfica (como, por ejemplo, un calendario), en lugar de tener que ingresarlo directamente como una cadena.|
 | number| Este elemento valida automáticamente que los valores introducidos sean numéricos sin necesidad de scripts adicionales, toda la validación la realiza el propio navegador|
 | password|El buscador generará un campo para escribir, y cambiar la contraseña. Los datos que introduzca el usuario serán mostrardos como asteriscos, estos carácteres puede variar dependiendo del buscador. |
 | radio|En un atributo type, representa una opción que pertenece a un grupo en el que no más de una opción puede ser seleccionada al mismo tiempo. Estos grupos están normalmente conformados por un número de botones de opción, todos compartiendo el mismo valor en el atributo name. |
 | range| permite que el usuario especifique un valor numérico comprendido entre un valor mínimo y máximo. El valor exacto, sin embargo, no se considera importante. Se repesenta típicamente como un "tirador" o un control deslizante en lugar de un campo de texto como otros tipos de <input>. Como este tipo de widget es bastante inmpreciso, no debe utilizarse normalmente a menos que el valor exacto del control no sea importante. |
-| reset| |
-| search| |
-| submit| |
-| tel| |
-| text| |
+| reset|Permite agregar un boton con la funcionalidad de limpiar cualquier formulario o valor asignado. |
+| search|Permite agregar campos donde se podria recibir texto para busquedas. |
+| submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo imput hacia el servidor. |
+| tel| Permite agregar un campo que valida que se hayan introducido caracteres numericos cuando se requiera solicitar un numero telefonico. |
+| text| Permite crear campos simples para captura de texto. |
 | time| |
 | url| |
 | week| |
