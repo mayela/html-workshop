@@ -97,7 +97,7 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 |--- | ---|
 | title|
 | style | Es el elemento encargado de indicar la información de estilos. |
-| meta |
+| meta |Son tipicamente usados para especificar la descripcion de la pagina, teclado , autor del documento, ultima modificacion y otros metadatos,los metadatos no seran mostrados en la pagina, pero la maquina lo analiza|
 | link |
 | script |El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.|
 | base |
