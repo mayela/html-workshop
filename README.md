@@ -180,9 +180,10 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo imput hacia el servidor. |
 | tel| Permite agregar un campo que valida que se hayan introducido caracteres numericos cuando se requiera solicitar un numero telefonico. |
 | text| Permite crear campos simples para captura de texto. |
-| time| |
-| url| |
-| week| |
+| time| | Define el control para ingresar una hora (sin zona horaria)
+| url| | Define un campo para ingresar una URL
+| week| | Define un control de semana y año (sin zona horaria)
+
 
 ## Atributos globales
 
