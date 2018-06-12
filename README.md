@@ -1,4 +1,4 @@
-# Fundamentos de HTML
+﻿# Fundamentos de HTML
 
 HTML es un lenguaje de marcado y es usado para decirle al navegador que desplegar al visitar una página web. Consiste en una serie de etiquetas que representan elementos que usas para _marcar_ diferentes partes del contenido, dicho de otra manera, las etiquetas son los bloques que conforman u página web.
 Una página web es una serie de elementos HTML anidados.
@@ -178,11 +178,11 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | color| Permite al usuario seleccionar un color.  |
 | date| Permite al usuario proporcionar una fecha. |
 | datetime| Permite ingresar hora y fecha (hora, minuto, segundo, fracción de segundo) basado en la zona horaria UTC. |
-| datetime-local | |
-| email| |
-| file| |
-| hidden| |
-| image| |
+| datetime-local | Se escoge una fecha y hora sin la zona horaria  |
+| email|el tipo de entrada tiene que ser un email |
+| file|define un campo de archivo y lo selecciona y pone un boton para ver los archivos subidos|
+| hidden|oculta un campo de entrada de datos al usuario aunque la informacion es enviada cuando el formulario es presentada  |
+| image|el tipo de entrada es una imagen y envia coordenadas X y Y del clic que activo el boton de imagen|
 | month| |
 | number| |
 | password| |
