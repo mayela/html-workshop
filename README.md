@@ -100,7 +100,7 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 | meta |
 | link |
 | script |
-| base |
+| base | Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento <base> en un documento.|
 
 
 #### Encabezados
@@ -193,9 +193,9 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | submit| |
 | tel| |
 | text| |
-| time| | Define el control para ingresar una hora (sin zona horaria)
-| url| | Define un campo para ingresar una URL
-| week| | Define un control de semana y año (sin zona horaria)
+| time| Define el control para ingresar una hora (sin zona horaria) |
+| url| Define un campo para ingresar una URL | 
+| week| Define un control de semana y año (sin zona horaria) | 
 
 ## Atributos globales
 
