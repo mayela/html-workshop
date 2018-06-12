@@ -96,6 +96,14 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 | Etiqueta|
 |--- |
 | title|
+|Definición| Indica el título del documento.
+    Sus etiquetas son: <title> y </title> (ambas obligatorias)
+    Crea una caja:
+    Está definido como: Elemento de contenido de cabecera.
+    Puede contener: texto y entidades de caracteres, pero no puede contener código. 
+	Todos los documentos deben tener un titulo, por lo tanto este elemnto es obligatorio
+	y debe estar ubicado dentro del head.           barra del navegador.
+	El contenido del title suele ser mostrado en la
 | style |
 | meta |
 | link |
@@ -108,6 +116,7 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 * \<h2>Encabezado 2\</h2>
 * \<h3>Encabezado 3\</h3>
 * \<h4>Encabezado 4\</h4>
+
 * \<h5>Encabezado 5\</h5>
 * \<h6>Encabezado 6\</h6>
 
