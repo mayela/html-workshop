@@ -91,10 +91,6 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 #### Etiqueta _head_
 
-El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados al usuario. Las etiquetas siguientes definen metadatos:
-
-#### Etiqueta _head_
-
 El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados el usuario. Las etiquetas siguientes definen metadatos:
 
 | Etiqueta| Descripción |
