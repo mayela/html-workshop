@@ -97,7 +97,7 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 |--- |
 | title|
 | style |
-| meta |
+| meta |Son tipicamente usados para especificar la descripcion de la pagina, teclado , autor del documento, ultima modificacion y otros metadatos,los metadatos no seran mostrados en la pagina, pero la maquina lo analiza|
 | link |
 | script |
 | base |
