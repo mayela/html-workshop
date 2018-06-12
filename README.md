@@ -173,11 +173,11 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | password| |
 | radio| |
 | range| |
-| reset| |
-| search| |
-| submit| |
-| tel| |
-| text| |
+| reset|Permite agregar un boton con la funcionalidad de limpiar cualquier formulario o valor asignado. |
+| search|Permite agregar campos donde se podria recibir texto para busquedas. |
+| submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo imput hacia el servidor. |
+| tel| Permite agregar un campo que valida que se hayan introducido caracteres numericos cuando se requiera solicitar un numero telefonico. |
+| text| Permite crear campos simples para captura de texto. |
 | time| |
 | url| |
 | week| |
