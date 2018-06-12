@@ -99,9 +99,8 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 | style | Es el elemento encargado de indicar la información de estilos. |
 | meta |Son tipicamente usados para especificar la descripcion de la pagina, teclado , autor del documento, ultima modificacion y otros metadatos,los metadatos no seran mostrados en la pagina, pero la maquina lo analiza|
 | link |
-| base | Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento <base> en un documento.|
 | script |El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.|
-| base |
+| base | Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento <base> en un documento.|
 
 #### Encabezados
 
@@ -175,24 +174,6 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | color| Permite al usuario seleccionar un color.  |
 | date| Permite al usuario proporcionar una fecha. |
 | datetime| Permite ingresar hora y fecha (hora, minuto, segundo, fracción de segundo) basado en la zona horaria UTC. |
-| datetime-local | |
-| email| |
-| file| |
-| hidden| |
-| image| |
-| month| |
-| number| |
-| password| |
-| radio| |
-| range| |
-| reset| |
-| search| |
-| submit| |
-| tel| |
-| text| |
-| time| Define el control para ingresar una hora (sin zona horaria) |
-| url| Define un campo para ingresar una URL | 
-| week| Define un control de semana y año (sin zona horaria) | 
 | datetime-local | Se escoge una fecha y hora sin la zona horaria  |
 | email|el tipo de entrada tiene que ser un email |
 | file|define un campo de archivo y lo selecciona y pone un boton para ver los archivos subidos|
