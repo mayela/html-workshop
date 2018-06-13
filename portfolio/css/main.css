@@ -1,6 +1,6 @@
-a {
-    text-decoration: none;
-}
+/************************
+********* General *******
+*************************/
 
 #wrapper {
     max-width: 940px;
@@ -8,13 +8,36 @@ a {
     padding: 0 5%;
 }
 
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/***********************
+********* Heading *******
+************************/
+
 #logo {
     text-align: center;
     margin: 0;
 }
 
-a {
-    color: #6ab47b;
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0;
+    font-size: 2.25em;
+}
+
+/***********************
+********* Colors *******
+************************/
+
+body {
+    background-color: #fff;
+    color: #999;
 }
 
 header {
@@ -34,15 +57,11 @@ nav a, nav a:visited {
     color:#fff;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
 nav a.selected, nav a:hover{
     color: #32673f;
 }
 
-body {
-    background-color: #fff;
-    color: #999;
+a {
+    color: #6ab47b;
 }
+
