@@ -93,14 +93,15 @@ La mayoría de los atributos son pares nombrados separados por un signo de =. A�
 
 El elemento _head_ es un contenedor para los metadatos. Los metadatos no son desplegados el usuario. Las etiquetas siguientes definen metadatos:
 
-| Etiqueta|
-|--- |
-| title|
-| style |
-| meta |
-| link |
-| script |
-| base |
+| Etiqueta| Descripción |
+|--- | ---|
+| title| Indica el título del documento.Sus etiquetas son: <title> y </title> (ambas obligatorias). Crea una caja: Está definido como: Elemento de contenido de cabecera.|           
+| style | Es el elemento encargado de indicar la información de estilos. |
+| meta |Son tipicamente usados para especificar la descripcion de la pagina, teclado , autor del documento, ultima modificacion y otros metadatos,los metadatos no seran mostrados en la pagina, pero la maquina lo analiza|
+| link | Permite realizar la carga y establecer la relacion existente entre el documento web actual y un recurso externo.Esta etiqueta es normalmente utilizada para realizar la carga de hojas de estilos para el documento web. |
+| script| El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.|
+| base | Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento <base> en un documento.|
+
 
 #### Encabezados
 
@@ -186,12 +187,13 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | range| permite que el usuario especifique un valor numérico comprendido entre un valor mínimo y máximo. El valor exacto, sin embargo, no se considera importante. Se repesenta típicamente como un "tirador" o un control deslizante en lugar de un campo de texto como otros tipos de <input>. Como este tipo de widget es bastante inmpreciso, no debe utilizarse normalmente a menos que el valor exacto del control no sea importante. |
 | reset|Permite agregar un boton con la funcionalidad de limpiar cualquier formulario o valor asignado. |
 | search|Permite agregar campos donde se podria recibir texto para busquedas. |
-| submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo imput hacia el servidor. |
+| submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo input hacia el servidor. |
 | tel| Permite agregar un campo que valida que se hayan introducido caracteres numericos cuando se requiera solicitar un numero telefonico. |
 | text| Permite crear campos simples para captura de texto. |
 | time | Define el control para ingresar una hora (sin zona horaria)|
 | url |Define un campo para ingresar una URL|
 | week | Define un control de semana y año (sin zona horaria)|
+
 
 
 ## Atributos globales
