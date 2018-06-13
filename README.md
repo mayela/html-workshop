@@ -166,6 +166,8 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 
 ##### Input
 
+> Para el método POST cada elemento _input_ debe de tener el atributo **name** respectivo, si no es así el dato del _input_ no séra enviado.
+
 ###### Tipos de elemento input
 
 |Tipo | Descripción |
@@ -193,8 +195,6 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | time | Define el control para ingresar una hora (sin zona horaria)|
 | url |Define un campo para ingresar una URL|
 | week | Define un control de semana y año (sin zona horaria)|
-
-
 
 ## Atributos globales
 
