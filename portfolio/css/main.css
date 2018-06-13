@@ -1,7 +1,9 @@
 /************************
 ********* General *******
 *************************/
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 #wrapper {
     max-width: 940px;
     margin: 0 auto;
@@ -28,7 +30,7 @@ nav ul {
 h1 {
     font-family: 'Poppins', sans-serif;
     margin: 15px 0;
-    font-size: 2.25em;
+    font-size: 1.75em;
     font-weight: normal;
     line-height: 0.8em;
 }
@@ -37,6 +39,27 @@ h2 {
     font-size: 1.25em;
     margin: -5px 0 0;
     font-weight: normal;
+}
+
+/***********************
+****** Navigation ******
+************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+/***********************
+******** Footer ********
+************************/
+
+footer {
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 50px;
+    color: #ccc;
 }
 
 /***********************
