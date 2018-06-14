@@ -248,6 +248,7 @@ Finalmente la página donde mostraremos nuestros datos de contacto.
 * https://www.fundeu.es/escribireninternet/edicion-y-maquetacion-de-documentos-web/
 * http://htmlcheatsheet.com/
 * http://www.laurachuburu.com.ar/tutoriales/modelo-de-caja.php
-* 
+* https://devcode.la/tutoriales/modelo-caja-css/
+* https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas
 
 
