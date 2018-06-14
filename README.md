@@ -95,12 +95,12 @@ El elemento _head_ es un contenedor para los metadatos. Los metadatos no son des
 
 | Etiqueta| Descripción |
 |--- | ---|
-| title| Indica el título del documento.Sus etiquetas son: <title> y </title> (ambas obligatorias). Crea una caja: Está definido como: Elemento de contenido de cabecera.|           
+| title| Indica el título del documento.Sus etiquetas son: \<title> y \</title> (ambas obligatorias). Crea una caja: Está definido como: Elemento de contenido de cabecera.|
 | style | Es el elemento encargado de indicar la información de estilos. |
 | meta |Son tipicamente usados para especificar la descripcion de la pagina, teclado , autor del documento, ultima modificacion y otros metadatos,los metadatos no seran mostrados en la pagina, pero la maquina lo analiza|
 | link | Permite realizar la carga y establecer la relacion existente entre el documento web actual y un recurso externo.Esta etiqueta es normalmente utilizada para realizar la carga de hojas de estilos para el documento web. |
-| script| El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.|
-| base | Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento <base> en un documento.|
+| script| El elemento HTML _script_ se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.|
+| base | Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento \<base> en un documento.|
 
 
 #### Encabezados
@@ -186,7 +186,7 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 | number| Este elemento valida automáticamente que los valores introducidos sean numéricos sin necesidad de scripts adicionales, toda la validación la realiza el propio navegador|
 | password|El buscador generará un campo para escribir, y cambiar la contraseña. Los datos que introduzca el usuario serán mostrardos como asteriscos, estos carácteres puede variar dependiendo del buscador. |
 | radio|En un atributo type, representa una opción que pertenece a un grupo en el que no más de una opción puede ser seleccionada al mismo tiempo. Estos grupos están normalmente conformados por un número de botones de opción, todos compartiendo el mismo valor en el atributo name. |
-| range| permite que el usuario especifique un valor numérico comprendido entre un valor mínimo y máximo. El valor exacto, sin embargo, no se considera importante. Se repesenta típicamente como un "tirador" o un control deslizante en lugar de un campo de texto como otros tipos de <input>. Como este tipo de widget es bastante inmpreciso, no debe utilizarse normalmente a menos que el valor exacto del control no sea importante. |
+| range| permite que el usuario especifique un valor numérico comprendido entre un valor mínimo y máximo. El valor exacto, sin embargo, no se considera importante. Se repesenta típicamente como un "tirador" o un control deslizante en lugar de un campo de texto como otros tipos de \<input>. Como este tipo de widget es bastante inmpreciso, no debe utilizarse normalmente a menos que el valor exacto del control no sea importante. |
 | reset|Permite agregar un boton con la funcionalidad de limpiar cualquier formulario o valor asignado. |
 | search|Permite agregar campos donde se podria recibir texto para busquedas. |
 | submit| Permite agregar botones que al ser presionados intentan enviar los datos capturados en cualquier campo input hacia el servidor. |
@@ -198,15 +198,26 @@ Existen dos formas de asociar a un elemento label con un control: insertando al 
 
 ## Atributos globales
 
-[](https://www.w3schools.com/tags/ref_standardattributes.asp)
+https://www.w3schools.com/tags/ref_standardattributes.asp
 
 ## Atributos de eventos
 
-[](https://www.w3schools.com/tags/ref_eventattributes.asp)
+https://www.w3schools.com/tags/ref_eventattributes.asp
 
 ## Maquetación WEB
 
 La maquetación web es el proceso en el que el prototipo gráfico también denominado «layout» (con los requisitos estructurales y estéticos definidos y aprobados en un análisis inicial) pasa a transformase en código html, css y js (estándares web) para que los navegadores puedan interpretarlo correctamente.
+
+
+# Fundamentos de CSS
+
+## Modelo de caja
+
+El modelo de caja es la manera en que se representan todos los elementos html en una página. Cada elemento genera una caja, el comportamiento de esa caja depende de su clasificación: si es de línea o de bloque.
+
+A todas las cajas se les puede aplicar las siguientes propiedades: width, height, padding, margin, border, background. Lo particular de este concepto es que por defecto el width se refiere al ancho del contenido de un elemento (no al ancho total, de borde a borde). 
+
+![](http://www.laurachuburu.com.ar/images/tutoriales/css/modelo-de-caja.png)
 
 ## Proyecto: Portafolio
 
@@ -236,6 +247,7 @@ Finalmente la página donde mostraremos nuestros datos de contacto.
 * https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input
 * https://www.fundeu.es/escribireninternet/edicion-y-maquetacion-de-documentos-web/
 * http://htmlcheatsheet.com/
+* http://www.laurachuburu.com.ar/tutoriales/modelo-de-caja.php
 * 
 
 

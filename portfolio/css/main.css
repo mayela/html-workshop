@@ -22,9 +22,20 @@ img {
     max-width: 100%
 }
 
+h3 {
+    margin: 0 0 1em 0;
+}
+
 /***********************
 ********* Heading *******
 ************************/
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
 
 #logo {
     text-align: center;
@@ -55,6 +66,21 @@ nav {
     margin: 20px 0 0;
 }
 
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
 /***********************
 ******** Footer ********
 ************************/
@@ -62,6 +88,7 @@ nav {
 footer {
     font-size: 1.25em;
     text-align: center;
+    clear: both;
     padding-top: 50px;
     color: #ccc;
 }
@@ -82,6 +109,24 @@ footer {
     margin: 2.5%;
     background: #f5f5f5;
     color: #bdc3c7;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+/***********************
+********* About ********
+************************/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
 }
 
 /***********************
@@ -110,7 +155,7 @@ nav a, nav a:visited {
     color:#fff;
 }
 
-nav a.selected, nav a:hover{
+nav a.selected, nav a:hover {
     color: #32673f;
 }
 
