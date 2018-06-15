@@ -9,6 +9,7 @@ body {
     width: 400px;
     height: 100px;
     padding: 20px;
+    border: 20px solid black;
 }
 
 .caja2 {
