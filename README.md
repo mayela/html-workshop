@@ -263,15 +263,17 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
 |A > B| Cualquier elemento seleccionado por B descendiente de un elemento seleccionado por A (o sea, un hijo, un hijo de otro hijo, etc.).|
 |A + B| Cualquier elemento seleccionado por B y es el siguiente hermano de un elemento seleccionado por A (o sea, el siguiente hijo del mismo padre).|
 |A ~ B| Cualquier elemento seleccionado por B y es uno de los siguientes hermanos del elemento seleccionado por A (uno de los siguientes hermanos del mismo padre).|
-Ejemplo : 
-h1, h2, h3, h4, h5, h6 {
+
+* Ejemplo : 
+ ``` css
+  h1, h2, h3, h4, h5, h6 {
   font-family: helvetica, 'sans serif';
 }
 
 p, li {
   font-size: 1.6em;
-}
-
+} 
+```
 * Selectores múltiples: La idea de estos selectores es usar el mismo conjunto de declaraciones para varios selectores separados por comas.
 
 ![](https://mdn.mozillademos.org/files/3668/css%20syntax%20-%20ruleset.png)
