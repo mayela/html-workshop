@@ -242,8 +242,7 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
 
 * Selectores simples: selecciona uno o más elementos basados en su tipo de elemento, clase o id.
 * Selectores de atributo: selecciona uno o más elementos basados en su atributos.
-    **Ejemplo:** a[href="http://ejemplo.com"]{
-      propiedad: valor;
+    - **Ejemplo:** a[href="http://ejemplo.com"]{
       propiedad: valor;
     }
 * Pseudo-clases: selecciona uno o más elementos que se encuentran en algún estado(por ejemplo _hover_).
