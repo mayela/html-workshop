@@ -245,6 +245,24 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
 * Pseudo-clases: selecciona uno o más elementos que se encuentran en algún estado(por ejemplo _hover_).
 * Pseudo-elementos: selecciona uno o más partes de contenido que se encuentran en cierta posición en relación a otro elemento, por ejemplo la primera palabra de un párrafo.
 * Combinadores: En este caso no son selectores en si, si no son una forma de combinar dos o más selectores en una forma mucho más específica, por ejemplo, los párrafos que son _descendientes_ directos de divs o que están inmediantamente después de un elemento _h_.
+
+|Combinaciones |Selecciona |
+| --- | --- |
+| Combinadores | Tenemos varias maneras para seleccionar unos elementos respecto a su relación con otros. Estas relaciones se expresan mediante combinaciones de la siguiente forma (A y B representan cualquiera de los selectores vistos hasta ahora):|
+| A, B |Cualquier elemento seleccionado por A y/o B (ver Varios selectores en una regla, más adelante).|
+| A B | Cualquier elemento seleccionado por B descendiente de un elemento seleccionado por A (o sea, un hijo, un hijo de otro hijo, etc.).|
+|A > B| Cualquier elemento seleccionado por B descendiente de un elemento seleccionado por A (o sea, un hijo, un hijo de otro hijo, etc.).|
+|A + B| Cualquier elemento seleccionado por B y es el siguiente hermano de un elemento seleccionado por A (o sea, el siguiente hijo del mismo padre).|
+|A ~ B| Cualquier elemento seleccionado por B y es uno de los siguientes hermanos del elemento seleccionado por A (uno de los siguientes hermanos del mismo padre).|
+Ejemplo : 
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica, 'sans serif';
+}
+
+p, li {
+  font-size: 1.6em;
+}
+
 * Selectores múltiples: La idea de estos selectores es usar el mismo conjunto de declaraciones para varios selectores separados por comas.
 
 ![](https://mdn.mozillademos.org/files/3668/css%20syntax%20-%20ruleset.png)
