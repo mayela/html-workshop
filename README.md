@@ -211,6 +211,50 @@ La maquetación web es el proceso en el que el prototipo gráfico también denom
 
 # Fundamentos de CSS
 
+## ¿Qué es CSS?
+
+Cascading Style Sheets (CSS), traducido literalmente al español, como Hojas de estilo en cascada, es un lenguaje para especificar cómo los documentos se presentan a los usuarios.
+
+CSS ayuda a mantener la información de contenido de un documento separado de los detalles de como mostrarlo. Los detalles de como se muestra el documento son conocidos como estilos. Si mantienes los estilos separados del contenido puedes:
+
+* Evitar duplicación
+* Hacer el mantenimiento más simple
+* Usar el mismo contenido con diferentes estilos para diferentes propositos.
+
+## ¿Cómo CSS afecta a mi documento HTML?
+
+Los navegadores web aplican _reglas CSS_ a un documento HTML, esto modifica la forma en que el documento HTML es desplegado. Una regla CSS está formada por:
+
+* Un conjunto de propiedad cuyos valores actualizan la forma en como el contenido HTML es desplegado.
+* Un selector el cual _selecciona_ el elemento al que le serán aplicadas los valores de las propiedades.
+
+Cuando un navegador web despliega un documento, este debe combinar el contenido del documento con la información de estilos. Este proceso consta de dos pasos:
+
+1. El navegador convierte el HTML y CSS en el DOM(Document object model). El _DOM_ representa el documento en la memoria de la computadora. Este combina el contenido del documento con sus estilos.
+
+2. El navegador despliega el contenido del _DOM_.
+
+![](https://mdn.mozillademos.org/files/11781/rendering.svg)
+
+## Selectores
+
+Los selectores son usados para definir el contenido HTML al que le quremmos aplicar estilos en nuestra página web. Existen distintos tipos de selectores:
+
+* Selectores simples: selecciona uno o más elementos basados en su tipo de elemento, clase o id.
+* Selectores de atributo: selecciona uno o más elementos basados en su atributos.
+* Pseudo-clases: selecciona uno o más elementos que se encuentran en algún estado(por ejemplo _hover_).
+* Pseudo-elementos: selecciona uno o más partes de contenido que se encuentran en cierta posición en relación a otro elemento, por ejemplo la primera palabra de un párrafo.
+* Combinadores: En este caso no son selectores en si, si no son una forma de combinar dos o más selectores en una forma mucho más específica, por ejemplo, los párrafos que son _descendientes_ directos de divs o que están inmediantamente después de un elemento _h_.
+* Selectores múltiples: La idea de estos selectores es usar el mismo conjunto de declaraciones para varios selectores separados por comas.
+
+![](https://mdn.mozillademos.org/files/3668/css%20syntax%20-%20ruleset.png)
+
+## CSS valores y unidades
+
+* Valores numéricos: para especificar ancho, tamaño de borde o fuente, cuantas veces correr una animación, etc.
+* Porcentajes: También pueden ser usados para especificar ancho, tamaño, pero relativo a la altura y ancho del contenedor padre 
+* Colores: para especificar 
+
 ## Modelo de caja
 
 El modelo de caja es la manera en que se representan todos los elementos html en una página. Cada elemento genera una caja, el comportamiento de esa caja depende de su clasificación: si es de línea o de bloque.
@@ -250,5 +294,17 @@ Finalmente la página donde mostraremos nuestros datos de contacto.
 * http://www.laurachuburu.com.ar/tutoriales/modelo-de-caja.php
 * https://devcode.la/tutoriales/modelo-caja-css/
 * https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas
+* https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout/Conceptos_B%C3%A1sicos_del_Posicionamiento_con_Rejillas
+* https://fonts.google.com/
+* https://www.materialpalette.com/
+* https://developer.mozilla.org/es/docs/Web/CSS/Como_iniciar/Que_es_CSS
+* https://developer.mozilla.org/es/docs/Web/CSS/Como_iniciar/Por_que_usar_CSS
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Attribute_selectors
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
 
 
