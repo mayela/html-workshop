@@ -247,6 +247,9 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
     }
 * Pseudo-clases: selecciona uno o más elementos que se encuentran en algún estado(por ejemplo _hover_).
 * Pseudo-elementos: selecciona uno o más partes de contenido que se encuentran en cierta posición en relación a otro elemento, por ejemplo la primera palabra de un párrafo.
+  * p::first-line {
+  *  color: blue;   
+  *  } */La primera linea de los  parrafos seran azules*/
 * Combinadores: En este caso no son selectores en si, si no son una forma de combinar dos o más selectores en una forma mucho más específica, por ejemplo, los párrafos que son _descendientes_ directos de divs o que están inmediantamente después de un elemento _h_.
 * Selectores múltiples: La idea de estos selectores es usar el mismo conjunto de declaraciones para varios selectores separados por comas.
 
