@@ -242,11 +242,14 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
 
 * Selectores simples: selecciona uno o más elementos basados en su tipo de elemento, clase o id.
 * Selectores de atributo: selecciona uno o más elementos basados en su atributos.
-    - **Ejemplo:** a[href="http://ejemplo.com"]{
-      propiedad: valor;
-    }
+    - **Ejemplo 1:** a[href="http://ejemplo.com"] {
+      propiedad: valor;} : selecciona las etiquetas "a" que contengan el hipervínculo citado.
+    - **Ejemplo 2:** a[href$=".mx"] {propiedad: valor;} : selecciona las etiquetas "a" que contengan un hipervínculo cuyo dominio sea el especificado.
 * Pseudo-clases: selecciona uno o más elementos que se encuentran en algún estado(por ejemplo _hover_).
 * Pseudo-elementos: selecciona uno o más partes de contenido que se encuentran en cierta posición en relación a otro elemento, por ejemplo la primera palabra de un párrafo.
+  * p::first-line {
+  *  color: blue;   
+  *  } */La primera linea de los  parrafos seran azules*/
 * Combinadores: En este caso no son selectores en si, si no son una forma de combinar dos o más selectores en una forma mucho más específica, por ejemplo, los párrafos que son _descendientes_ directos de divs o que están inmediantamente después de un elemento _h_.
 
 |Combinaciones |Selecciona |
@@ -257,6 +260,7 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
 |A > B| Cualquier elemento seleccionado por B descendiente de un elemento seleccionado por A (o sea, un hijo, un hijo de otro hijo, etc.).|
 |A + B| Cualquier elemento seleccionado por B y es el siguiente hermano de un elemento seleccionado por A (o sea, el siguiente hijo del mismo padre).|
 |A ~ B| Cualquier elemento seleccionado por B y es uno de los siguientes hermanos del elemento seleccionado por A (uno de los siguientes hermanos del mismo padre).|
+
 Ejemplo : 
  ```css h1, h2, h3, h4, h5, h6 {
   font-family: helvetica, 'sans serif';
