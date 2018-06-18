@@ -251,11 +251,11 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
                                   }
 * Pseudo-elementos: selecciona uno o más partes de contenido que se encuentran en cierta posición en relación a otro elemento, por ejemplo la primera palabra de un párrafo.
 
-  ```css
+  ``` css
    p::first-line {
     color: blue;   
    } /*La primera linea de los  parrafos seran azules*/```
-   
+
 * Combinadores: En este caso no son selectores en si, si no son una forma de combinar dos o más selectores en una forma mucho más específica, por ejemplo, los párrafos que son _descendientes_ directos de divs o que están inmediantamente después de un elemento _h_.
 
 |Combinaciones |Selecciona |
