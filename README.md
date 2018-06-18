@@ -264,8 +264,9 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
 |A + B| Cualquier elemento seleccionado por B y es el siguiente hermano de un elemento seleccionado por A (o sea, el siguiente hijo del mismo padre).|
 |A ~ B| Cualquier elemento seleccionado por B y es uno de los siguientes hermanos del elemento seleccionado por A (uno de los siguientes hermanos del mismo padre).|
 
-*Ejemplo : 
- ```css h1, h2, h3, h4, h5, h6 {
+* Ejemplo : 
+ ``` css
+  h1, h2, h3, h4, h5, h6 {
   font-family: helvetica, 'sans serif';
 }
 
