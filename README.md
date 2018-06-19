@@ -263,7 +263,8 @@ Los selectores son usados para definir el contenido HTML al que le quremmos apli
   ``` css
    p::first-line {
     color: blue;   
-   } /*La primera linea de los  parrafos seran azules*/```
+   } /*La primera linea de los  parrafos seran azules*/
+  ```
 
 * Combinadores: En este caso no son selectores en si, si no son una forma de combinar dos o más selectores en una forma mucho más específica, por ejemplo, los párrafos que son _descendientes_ directos de divs o que están inmediantamente después de un elemento _h_.
 
@@ -347,5 +348,9 @@ Finalmente la página donde mostraremos nuestros datos de contacto.
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
+* https://www.upwork.com/hiring/development/beginners-guide-to-front-end-development/
+* https://css-tricks.com/snippets/css/complete-guide-grid/
+* https://www.w3schools.com/css/css_grid_container.asp
+* https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
 
