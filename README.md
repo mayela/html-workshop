@@ -305,6 +305,36 @@ A todas las cajas se les puede aplicar las siguientes propiedades: width, height
 
 ![](http://www.laurachuburu.com.ar/images/tutoriales/css/modelo-de-caja.png)
 
+## Media queries
+
+Un _media query_ consiste en un media type y puede contener una o más expresiones y toman en cuenta las capacidades del dispositivo donde se está visualizando el sitio.
+
+```css
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+}
+```
+
+### Breakpoint más usados
+
+```css
+/* Dispositivos extra pequeños (teléfonos, 600px and hacia abajo) */
+@media only screen and (max-width: 600px) {...}
+
+/* Dispositivos pequeños (tablets en modo retrato y teléfonos grandes, 600px hacia arriba) */
+@media only screen and (min-width: 600px) {...}
+
+/* Dispositivos medianos (tablets en modo paisaje, 768px hacia arriba) */
+@media only screen and (min-width: 768px) {...}
+
+/* Dispositivos grandes (laptops y computadoras de escritorio, 992px hacia arriba) */
+@media only screen and (min-width: 992px) {...}
+
+/* Dispositivos extra grandes (laptops y computadoras de escritorio grandes, 1200px hacia arriba) */
+@media only screen and (min-width: 1200px) {...}
+```
+
 ## Proyecto: Portafolio
 
 Crearemos un portafolio para búsqueda laboral, empezaremos primero creando los _wire frames_ de nuestra página web.
@@ -352,5 +382,6 @@ Finalmente la página donde mostraremos nuestros datos de contacto.
 * https://css-tricks.com/snippets/css/complete-guide-grid/
 * https://www.w3schools.com/css/css_grid_container.asp
 * https://www.w3schools.com/css/css3_mediaqueries_ex.asp
-
+* https://www.w3schools.com/Css/css_rwd_mediaqueries.asp
+* https://www.w3schools.com/Css/css_rwd_viewport.asp
 
